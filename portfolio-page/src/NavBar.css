@@ -1,0 +1,36 @@
+.main-nav {
+    height: 3.5rem;
+    background-color: lightblue;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.spinner {
+    width: 3rem;
+    height: 3rem;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem;
+    text-decoration: none;
+	font-size: 24px;
+	color: #596365;
+
+}
+
+nav {
+    padding: 10.5px;
+}
+
+.icons {
+    font-size: 24px;
+    /* display: flex; */
+    flex-direction: row;
+    align-items: center;
+    color: gray;
+}
