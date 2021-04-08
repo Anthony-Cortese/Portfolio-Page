@@ -1,0 +1,55 @@
+.about-me {
+    height: 1300px;
+}
+.container {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+  .hex-3-row {
+    display: table;
+    margin: 30px auto;
+  }
+  .hex {
+    display: inline-block;
+    width: 190px;
+    height: 110px;
+    color: white;
+    background-color: red;
+    position: relative;
+    margin-left: 15px;
+    z-index: 110;
+    text-align: center;
+    line-height: 110px;
+  }
+  .hex::after {
+    content: "";
+    background-color: red;
+    height: 110px;
+    width: 190px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: rotate(60deg);
+    z-index: -1;
+  }
+  .hex::before {
+    content: "";
+    background-color: red;
+    height: 110px;
+    width: 190px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: rotate(-60deg);
+    z-index: -1;
+  }
+  img {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 50%;
+    transform: translateY(-50%);
+  }

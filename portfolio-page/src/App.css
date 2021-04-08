@@ -1,7 +1,17 @@
+/* #84a9ac
+?#cae8d5 */
+
+ body {
+  background-color: #414141
+}
+
 .App {
   /* display: flex; */
   /* flex-direction: row; */
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  /* background-color: darkslategray; */
+  max-height: 1000px;
+
 }
 
 .navbar-app {

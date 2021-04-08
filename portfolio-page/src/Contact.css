@@ -1,0 +1,126 @@
+.contact-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    border: 1px solid black;
+    height: 700px;
+    /* width: 1900px */
+}
+.contact-icons {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    width: 50%;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+.icon {
+    background: transparent;
+    border: 1px solid gray;
+    padding:15px;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+}
+
+.info {
+    font-size: 8px;
+}
+
+.icon:hover {
+    background: cornflowerblue;
+}
+.send {
+    height: 2rem;
+    width: 24rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15rem;
+    border-radius: 8px;
+}
+.name1 {
+    font-size: 50px;
+    margin-top: 3rem;
+}
+/* .form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+    width: 50%;
+    /* border: 1px solid green */
+  
+  
+  .form__field {
+    font-family: inherit;
+    width: 390px;
+    height: 48px;
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1.3rem;
+    color: whitesmoke;
+    padding: 7px 5px;
+    background: transparent;
+    box-shadow:none;
+    /* margin-left: 20rem; */
+    /* border: 1px solid blue; */
+    max-width: 100%;
+    display: inline;
+    /* flex-direction: column; */
+    justify-content: center;
+    margin: 2rem;
+
+
+
+  }
+  
+  
+
+  .form__field1 {
+    font-family: inherit;
+    width: 55rem;
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1.3rem;
+    color: whitesmoke;
+    padding: 7px 5px;
+    background: transparent;
+    box-shadow:none;
+    /* margin-left: 20rem; */
+    /* border: 1px solid blue; */
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 2rem;
+
+  }
+  .con-icon {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+
+  .contact-form {
+      border: 1px solid black;
+      /* width: 1200px; */
+      display: flex;
+      /* align-items: center; */
+      flex-direction: row;
+
+  }
+
+  .contact-input {
+      border: 1px solid black;
+      /* width: 50%; */
+      /* display: flex; */
+      /* flex-direction: column; */
+      /* justify-content: center; */
+  }
